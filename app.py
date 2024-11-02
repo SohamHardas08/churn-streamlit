@@ -43,3 +43,5 @@ fig = px.histogram(
     title=f"{selected_feature} vs Churn"
 )
 st.plotly_chart(fig)
+
+st.text("These visualisation are based on telco customer dataset, the same dataset on which the predictive model was trained on")
