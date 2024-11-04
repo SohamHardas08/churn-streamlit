@@ -44,4 +44,7 @@ fig = px.histogram(
 )
 st.plotly_chart(fig)
 
-st.text("These visualisation are based on telco customer dataset, the same dataset on which the predictive model was trained on")
+st.markdown("""
+These visualizations are based on the Telco customer dataset,  
+the same dataset on which the predictive model was trained on.
+""")
